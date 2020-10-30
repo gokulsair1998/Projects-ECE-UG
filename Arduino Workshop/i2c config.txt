@@ -1,0 +1,10 @@
+begin() – This initiates the library and sets up the Arduino to be either master or slave.
+requestFrom() – This function is used by the master to request data from a slave.
+beginTransmission() – This function is used by the master to send data to a specified slave.
+endTransmission() – This function is used by the master to end a transmission started with the beginTransmission function.
+write() – Used by both master and slave to send data on the I2C bus.
+available() – Used by both master and slave to determine the number of bytes in the data they are receiving.
+read() – Reads a byte of data from the I2C bus.
+SetClock() – Used by the master to set a specific clock frequency.
+onReceive() – Used by the slave to specify a function that is called when data is received from the master.
+onRequest() – Used by the slave to specify a function that is called when the master has requested data.

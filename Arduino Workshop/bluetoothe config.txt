@@ -1,0 +1,6 @@
+AT-to check whether it is working or not
+AT+ROLE?-to check whether the bluetooth is in slave(0) or master(1) mode
+AT+ADDR?-To get the address of the bluetooth module
+AT+CMODE=0-to fixate the bluetooth module connection to one address
+AT+BIND=......-for the master to connect to the slave when it is inputed with the slave address
+ 
